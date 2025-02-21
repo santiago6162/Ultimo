@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub - Juega en Línea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Game Hub - Juega en Línea</h1>
+        <nav>
+            <ul>
+                <li><a href="#emuladores">Emuladores</a></li>
+                <li><a href="#html5">Juegos HTML5</a></li>
+                <li><a href="#roms">Descargar ROMs</a></li>
+                <li><a href="#launcher">Launcher de Juegos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="emuladores">
+        <h2>Juega con Emuladores</h2>
+        <p>Selecciona una consola y carga tu ROM.</p>
+        <ul>
+            <li><a href="snes.html">Super Nintendo (SNES)</a></li>
+            <li><a href="gba.html">Game Boy Advance (GBA)</a></li>
+            <li><a href="gamecube.html">GameCube</a></li>
+        </ul>
+    </section>
+    
+    <section id="html5">
+        <h2>Juegos en HTML5 / WebGL</h2>
+        <p>Juega títulos sin descargar nada.</p>
+        <ul>
+            <li><a href="games/platformer.html">Plataformas</a></li>
+            <li><a href="games/racing.html">Carreras</a></li>
+        </ul>
+    </section>
+    
+    <section id="roms">
+        <h2>Descargar ROMs</h2>
+        <p>Encuentra ROMs para jugar en los emuladores.</p>
+        <a href="roms.html">Ver ROMs disponibles</a>
+    </section>
+    
+    <section id="launcher">
+        <h2>Launcher de Juegos</h2>
+        <p>Sube y juega tus propios juegos.</p>
+        <input type="file" id="gameUpload" accept=".nes,.sfc,.gba">
+        <button onclick="loadGame()">Cargar Juego</button>
+        <script>
+            function loadGame() {
+                alert("Funcionalidad en desarrollo...");
+            }
+        </script>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Game Hub</p>
+    </footer>
+</body>
+</html>

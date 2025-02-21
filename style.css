@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+canvas {
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+}
